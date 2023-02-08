@@ -35,3 +35,7 @@ flex-direction: column;
 .scoreFormUl button {
     margin-left: 113px;
 }
+
+.show {
+    display: block;
+  }
