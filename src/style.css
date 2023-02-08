@@ -1,0 +1,37 @@
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    list-style: none;
+}
+
+.recentScoresBtn {
+    margin: 10px;
+}
+.recentScoresBtn h2 {
+    margin:10px;
+}
+.recentScoresBtn button {
+    margin: 10px;
+}
+
+.addYourScore {
+flex-direction: column;
+}
+
+.scoreFormUl {
+    list-style: none; 
+}
+
+.scoreFormUl li {
+    margin: 10px;
+}
+
+.scoreFormUl button {
+    margin-left: 113px;
+}
