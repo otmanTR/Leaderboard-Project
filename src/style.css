@@ -1,14 +1,18 @@
 
+body {
+  overflow: hidden;
+  font-family:cursive;
+}
 
 .flex {
     display: flex;
-    align-items: center;
 }
 
 .container {
     display: flex;
     list-style: none;
 }
+
 
 .recentScoresBtn {
     margin: 10px;
@@ -38,4 +42,10 @@ flex-direction: column;
 
 .show {
     display: block;
+  }
+
+  .scoreList {
+    border: 1px solid;
+    width: 100%;
+    list-style: none;
   }
