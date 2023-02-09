@@ -48,4 +48,11 @@ body {
   border: 1px solid;
   width: 100%;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.scoreItem:nth-child(even) {
+  background-color: #cdc9c9;
 }

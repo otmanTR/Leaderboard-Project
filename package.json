@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "watch": "webpack --watch",
     "dev": "webpack --mode development",
     "start": "webpack serve --open",
     "build": "webpack"
