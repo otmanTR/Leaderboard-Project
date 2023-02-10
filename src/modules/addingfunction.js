@@ -10,8 +10,8 @@ const formFunction = () => {
     const scoreName = document.querySelector('.scoreName');
     const score = document.querySelector('.score');
     if (scoreName.value.length >= 1 && score.value !== '') {
-    scoreBoard.addNewScore(scoreName.value, score.value);
-  }
+      scoreBoard.addNewScore(scoreName.value, score.value);
+    }
     scoreName.value = '';
     score.value = '';
   });

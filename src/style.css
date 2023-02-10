@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400');
+
 body {
   overflow: hidden;
   font-family: cursive;
@@ -51,7 +52,6 @@ body {
   display: block;
 }
 
-
 .scoreList {
   border: 3px solid;
   width: 100%;
@@ -69,7 +69,7 @@ body {
 }
 
 .scoreItem:nth-child(even) {
-  background-color: #d51880; 
+  background-color: #d51880;
 }
 
 .button {
@@ -86,7 +86,6 @@ body {
   height: 30px;
   padding: 0 15px;
   transition: all 200ms;
-
 }
 
 .button:hover {
