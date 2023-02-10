@@ -1,6 +1,6 @@
 class ScoreBoard {
   constructor() {
-    this.url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/0C2L19f4tpmrEXquKt2w/scores/';
+    this.url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/burak12/scores/';
   }
 
   apiFetch = async () => {
@@ -34,9 +34,10 @@ class ScoreBoard {
     }
     data.forEach((element) => {
       const content = `
-        <li class="scoreItem">${element.name}       :       ${element.score}</li>
+        <li class="scoreItem">${element.name} <span>: <span>${element.score}</li>
       `;
       scoreList.innerHTML += content;
+      // scoreList.innerText += content;
     });
   }
 }
