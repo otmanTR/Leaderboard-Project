@@ -1,6 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
+
 body {
   overflow: hidden;
   font-family: cursive;
+  background-color: purple;
+  color: white;
 }
 
 .flex {
@@ -10,6 +15,8 @@ body {
 .container {
   display: flex;
   list-style: none;
+  width: 100%;
+  margin-left: 5%;
 }
 
 .recentScoresBtn {
@@ -26,6 +33,7 @@ body {
 
 .addYourScore {
   flex-direction: column;
+  margin-left: 30px;
 }
 
 .scoreFormUl {
@@ -45,14 +53,46 @@ body {
 }
 
 .scoreList {
-  border: 1px solid;
+  border: 3px solid;
   width: 100%;
   list-style: none;
   display: flex;
   flex-direction: column;
   height: 100%;
+  margin: 0;
+}
+
+.scoreItem {
+  margin: 0;
+  margin-left: -35px;
+  color: whitesmoke;
 }
 
 .scoreItem:nth-child(even) {
-  background-color: #cdc9c9;
+  background-color: #d51880;
+}
+
+.button {
+  border: 1px solid black;
+  background-color: #c37b0775;
+  border-radius: 12px;
+  border-width: 0;
+  box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+  color: #f1eeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: cursive;
+  font-size: 1em;
+  height: 30px;
+  padding: 0 15px;
+  transition: all 200ms;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background-color: rgb(63, 1, 63);
+}
+
+input {
+  border: 3px solid black;
 }

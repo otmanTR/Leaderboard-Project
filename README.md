@@ -39,6 +39,7 @@
     <li>Git</li>
     <li>GitHub</li>
     <li>Webpack</li>
+    <li>API</li>
   </ul>
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -71,7 +72,8 @@
 
 ### Prerequisites
 
-In order to run this project you need: Chorome, Safari or Mozilla browsers
+In order to run this project you need: * Chorome, Safari or Mozilla browsers 
+* NPM (Node Package Manager)
 
 
 
@@ -81,15 +83,16 @@ Clone this repository to your desired folder:git@github.com:otmanTR/Leaderboard-
 
 ### Install
 
-Install this project with: Git bash
+Install this project with: $ npm install
 
 
 
 ### Usage
-
+Open the index.html file in your Web Browser.
 
 ### Run tests
-
+To run this project use $ npm run start
+in your terminal
 
 ### Deployment
 
