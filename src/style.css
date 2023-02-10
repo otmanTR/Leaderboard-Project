@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
 body {
   overflow: hidden;
   font-family: cursive;
@@ -10,6 +12,8 @@ body {
 .container {
   display: flex;
   list-style: none;
+  justify-content: center;
+  width: 100%;
 }
 
 .recentScoresBtn {
@@ -51,8 +55,18 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  margin: 0;
+}
+
+.scoreItem {
+  margin: 0;
 }
 
 .scoreItem:nth-child(even) {
-  background-color: #cdc9c9;
+  background-color: #cdc9c9; 
+}
+
+.button {
+  border: solid black;
+
 }
